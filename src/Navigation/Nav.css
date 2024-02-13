@@ -1,0 +1,55 @@
+nav {
+    display: flex;
+    border-bottom: 2px solid #ece6e6;
+   
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    z-index: 999;
+    margin-left: 2rem;
+    
+  
+  }
+  .img{
+    height: 4.5rem;
+    width: 8rem;
+  }
+  .img1
+  {
+    height:8rem;
+    width:20rem;
+    margin-right: -5rem;
+  }
+  .nav-logo{
+    margin-bottom: 1px;
+    margin-left: -24rem;
+  }
+  .nav-head{
+    margin-right: -200px;
+align-items: end;
+  }
+  .title
+  {
+    font-size:40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .container{
+    height:100vh;
+    width:100%;
+    background:linear-gradient(45deg,#d2001a,#7462ff,#f48e21,#23d5ab);
+    background-size:300% 300%;
+    animation:color 12s ease-in-out infinite;
+  }
+  @keyframes color{
+    0%{
+      background-position: 0 50%;
+    }
+    50%
+    {
+      background-position:100% 50% ;
+    }
+    100%
+    {
+      background-position:0 50% ;
+    }
+  }
