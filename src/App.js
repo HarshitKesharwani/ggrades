@@ -1,36 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-import Home from './Home/Home';
-import Nav from './Navigation/Nav';
+import "./App.css";
+import Home from "./Home/Home";
+import Loginstud from "./Login/Loginstud";
+import Loginteach from "./Login/Loginteach";
 
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <>
-    
-   
-   
-    
-    
-    <div class="area" >
-            <ul class="circles">
-              <Nav/>
-              <Home/>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    
-                    
-            </ul>
-    </div >
-     </>
+      <BrowserRouter>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/loginteach" element={<Loginteach />} />
+          <Route exact path="/loginstud" element={<Loginstud />} />
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 

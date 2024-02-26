@@ -1,0 +1,49 @@
+
+.sidebar
+{
+    width:17%;
+    position: fixed;
+    height: 100%;
+    border-right: 2px solid #e5e5e5;
+    z-index:3;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: grey;
+}
+.sub-container
+{
+    margin-top: 1em;
+    margin-bottom: 2em;
+    align-items: center;
+    
+    
+}
+.sub-container:hover
+{
+    background-color: rgb(43, 42, 42);
+}
+
+.sub-title
+{
+    color: azure;
+}
+.main-container
+{
+    margin-left: 20em;
+    margin-top: 2em;
+    border: 2px solid rgb(124, 120, 120);
+    width: 20cm;
+    height: 10cm;
+    border-radius: 1cm;
+    
+}
+.inner-container
+{
+margin-left: 1cm;
+margin-top: 1cm;
+word-spacing: 1cm;
+}
+
+  
+  
