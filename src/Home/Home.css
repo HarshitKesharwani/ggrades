@@ -38,7 +38,7 @@
     box-shadow: 2px 2px 5px 5px ;
     transform: scale(1) rotate(5deg);
     
-    background-color: #F3CE5E;
+    background-color: #252114;
   }
   .card:hover::before,.card:hover::after {
     display: block;
@@ -54,7 +54,7 @@
   }
   
 .card:hover:after {
-    background: #F3CE5E;
+    background: #e9bb34;
     
     animation: 2s counterclockwise infinite;
   }
@@ -219,7 +219,7 @@ body{
 
 
 .area{
-    background: #eb5b5e;  
+    background:rgb(16, 16, 73);  
     background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
     width: 100%;
     height:100vh;

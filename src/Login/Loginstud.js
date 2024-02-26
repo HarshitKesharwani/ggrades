@@ -35,34 +35,36 @@ export default function Loginstud() {
   }
   return (
     <>
-      <Nav />
-      <div className="tl1">
-        <div className="tl2">
-          <h2 className="head">LOGIN</h2>
-          <h3 className="head">STUDENT</h3>
-          <form action="POST">
-            <input
-              className="ip"
-              placeholder="Enter your mail"
-              type="email"
-              onChange={(e) => {
-                setEmail(e.target.value);
-              }}
-            />
-            <input
-              className="ip"
-              placeholder="Enter Password"
-              type="password"
-              onChange={(e) => {
-                setPassword(e.target.value);
-              }}
-            />
+      <div className="back">
+        <Nav />
+        <div className="tl1">
+          <div className="tl2">
+            <h2 className="head">LOGIN</h2>
+            <h3 className="head">STUDENT</h3>
+            <form action="POST">
+              <input
+                className="ip"
+                placeholder="Enter your mail"
+                type="email"
+                onChange={(e) => {
+                  setEmail(e.target.value);
+                }}
+              />
+              <input
+                className="ip"
+                placeholder="Enter Password"
+                type="password"
+                onChange={(e) => {
+                  setPassword(e.target.value);
+                }}
+              />
 
-            <br />
-            <button className="btn" onClick={submit}>
-              NEXT
-            </button>
-          </form>
+              <br />
+              <button className="btn" onClick={submit}>
+                NEXT
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </>
